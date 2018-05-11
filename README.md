@@ -21,5 +21,5 @@ The images saved by the web scraper are read into the facial recognition system.
 
 3. Facial Recognition 
    * In order to use the facial recongination libary, you must first download the libary to the PYNQ board. The board must have access to the internet for this download. See the PYNQ guide above for details on connecting your board to the internet.
-   * !!! THIS DOWNLOAD WILL TAKE 5+ HOURS !!!
+   * **!!! THIS DOWNLOAD WILL TAKE 5+ HOURS !!!**
    * Instructions to download the libary are [here](https://github.com/IarveJ/PYNQ_facialRec#installation). 
