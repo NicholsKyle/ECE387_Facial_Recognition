@@ -15,9 +15,10 @@ The images saved by the web scraper are read into the facial recognition system.
 ### Getting Started
 
 1. PYNQ-Z1 Board
-   * To connect the PYNQ board to your computer, use this [guide](http://pynq.readthedocs.io/en/v2.0/getting_started.html).
+   * See this [guide](http://pynq.readthedocs.io/en/v2.0/getting_started.html) for details on connecting the PYNQ board to your computer or router.
 
 2. Web Scrapping 
+* Logging into Facebook using a Python script, [here](http://mycodingzone.net/videos/hindi/web-scraping-hindi-6).
 
 3. Facial Recognition 
    * In order to use the facial recongination libary, you must first download the libary to the PYNQ board. The board must have access to the internet for this download. See the PYNQ guide above for details on connecting your board to the internet.
