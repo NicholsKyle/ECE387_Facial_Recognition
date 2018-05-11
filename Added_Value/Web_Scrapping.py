@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 14 12:30:56 2018
 
-@author: Nicky
+@author: Nicky and Austin
 """
 
 from pynq import Overlay
