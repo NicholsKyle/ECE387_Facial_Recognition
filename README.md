@@ -29,7 +29,7 @@ The images saved by the web scraper are read into the facial recognition system.
    * In order to use the facial recongination libary, you must first download the libary onto the PYNQ board. The board must have access to the internet to complete this download. See the PYNQ guide above for details on connecting your board to the internet.
    * **!!! THIS DOWNLOAD WILL TAKE 5+ HOURS !!!** Consider letting it download over night.
    * These [instructions](https://github.com/IarveJ/PYNQ_facialRec#installation) will help you to download the libary.
-   * We used the [glob API](https://pymotw.com/2/glob/) to access and read out the saved files inside the folder created by the web scraper.
+   * We used the [glob API](https://pymotw.com/2/glob/) to access and read the saved files inside the folder created by the web scraper.
    * The rest of the facial reconition system is based off of [Ageitgeys' system](https://github.com/ageitgey/face_recognition/tree/master/examples).
    
 5. Crontab
