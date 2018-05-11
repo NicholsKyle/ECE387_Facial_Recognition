@@ -30,7 +30,8 @@ The images saved by the web scraper are read into the facial recognition system.
    * **!!! THIS DOWNLOAD WILL TAKE 5+ HOURS !!!** Consider letting it download over night.
    * These [instructions](https://github.com/IarveJ/PYNQ_facialRec#installation) will help you to download the libary.
    * We used the [glob API](https://pymotw.com/2/glob/) to access and read the saved files inside the folder created by the web scraper.
-   * The rest of the facial reconition system is based off of [Ageitgeys' system](https://github.com/ageitgey/face_recognition/tree/master/examples).
+   * How to use video via the base overlay can be found [here](https://pynq.readthedocs.io/en/v1.3/9b_base_overlay_video.html).
+   * The facial reconition specific topics, such as comparing faces and creating a box around a persons' face can be found on [Ageitgeys'](https://github.com/ageitgey/face_recognition/tree/master/examples) Github.
    
 5. Crontab
    * This [document](http://www.adminschoice.com/crontab-quick-reference) describes Crontab and how Crontab is impliminted to make a program/script run on a set schedule.
