@@ -18,9 +18,14 @@ The images saved by the web scraper are read into the facial recognition system.
    * See this [guide](http://pynq.readthedocs.io/en/v2.0/getting_started.html) for details on connecting the PYNQ board to your computer or router.
 
 2. Web Scrapping 
-* Logging into Facebook using a Python script, [here](http://mycodingzone.net/videos/hindi/web-scraping-hindi-6).
+   * We used beauiful soup for our web sraping needs.
+      * You will need to [download](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) beautiful soup to your PYNQ board.
+   * This [guide](http://mycodingzone.net/videos/hindi/web-scraping-hindi-6) has a video tutorial and static examples on how to log into and scrape Facebook using beautiful soup.
 
 3. Facial Recognition 
-   * In order to use the facial recongination libary, you must first download the libary to the PYNQ board. The board must have access to the internet for this download. See the PYNQ guide above for details on connecting your board to the internet.
-   * **!!! THIS DOWNLOAD WILL TAKE 5+ HOURS !!!**
-   * Instructions to download the libary are [here](https://github.com/IarveJ/PYNQ_facialRec#installation). 
+   * In order to use the facial recongination libary, you must first download the libary to the PYNQ board. The board must have access to the internet to complete the download. See the PYNQ guide above for details on connecting your board to the internet.
+   * **!!! THIS DOWNLOAD WILL TAKE 5+ HOURS !!!** Consider letting it download over night.
+   * Instructions to download the libary are [here](https://github.com/IarveJ/PYNQ_facialRec#installation).
+   
+4. Crontab
+   * This [document](http://www.adminschoice.com/crontab-quick-reference) describes Crontab and how Crontab is impliminted.
