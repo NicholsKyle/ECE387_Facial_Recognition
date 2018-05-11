@@ -20,7 +20,8 @@ urllib.request.install_opener(opener)
 
 authentication_url = "https://m.facebook.com/login.php"
 payload = {
-
+    # Our email and password has been removed for privacy reasons,
+    # enter your Facebook email and password below to run the code
     'email':"",
     'pass':""
 }
