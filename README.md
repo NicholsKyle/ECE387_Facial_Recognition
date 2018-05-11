@@ -22,10 +22,14 @@ The images saved by the web scraper are read into the facial recognition system.
       * You will need to [download](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) beautiful soup to your PYNQ board.
    * This [guide](http://mycodingzone.net/videos/hindi/web-scraping-hindi-6) has a video tutorial and static examples on how to log into and scrape Facebook using beautiful soup.
 
-3. Facial Recognition 
+3. Saving the Scraped Information
+   * We need to be able to acccess this data later so we want to save it to a specific folder. This [page](https://stackoverflow.com/questions/20338452/saving-files-downloaded-from-urlretrieve-to-another-folder-other) will help you to do that.
+
+4. Facial Recognition 
    * In order to use the facial recongination libary, you must first download the libary to the PYNQ board. The board must have access to the internet to complete the download. See the PYNQ guide above for details on connecting your board to the internet.
    * **!!! THIS DOWNLOAD WILL TAKE 5+ HOURS !!!** Consider letting it download over night.
-   * Instructions to download the libary are [here](https://github.com/IarveJ/PYNQ_facialRec#installation).
+   * These [instructions](https://github.com/IarveJ/PYNQ_facialRec#installation) will help you to download the libary.
+   * We used the [glob API](https://pymotw.com/2/glob/) to access and read out the saved files inside the folder created by the web scraper.
    
-4. Crontab
+5. Crontab
    * This [document](http://www.adminschoice.com/crontab-quick-reference) describes Crontab and how Crontab is impliminted.
