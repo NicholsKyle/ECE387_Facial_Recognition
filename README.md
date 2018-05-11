@@ -12,7 +12,7 @@ The images saved by the web scraper are read into the facial recognition system.
 
 ---
 
-### Getting Started
+## Getting Started
 
 1. PYNQ-Z1 Board
    * See this [guide](http://pynq.readthedocs.io/en/v2.0/getting_started.html) for details on connecting the PYNQ board to your computer or router.
@@ -35,3 +35,9 @@ The images saved by the web scraper are read into the facial recognition system.
    
 5. Crontab
    * This [document](http://www.adminschoice.com/crontab-quick-reference) describes Crontab and how Crontab is impliminted to make a program/script run on a set schedule.
+   
+---
+
+## Contributors
+
+Austin Dulaney, Jake Iarve, Kyle Nichols and Nicky Nocerino.
